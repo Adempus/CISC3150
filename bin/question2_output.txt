@@ -1,0 +1,15 @@
+Question 2 output
+----------
+output:
+Enter a radius to calculate its area: 16
+area: 804.25
+
+radius: 800
+area: 2010619.30
+
+radius: 54
+area: 9160.88
+
+radius: 21
+area: 1385.44
+

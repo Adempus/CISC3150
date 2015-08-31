@@ -1,0 +1,124 @@
+/********** Separate Circle Examples ************/
+Circle A
+Enter center cordinates:
+(x): -3
+(y): -8
+Enter radius: 2
+
+Circle B
+Enter center cordinates:
+(x): 2
+(y): -2
+Enter radius: 3
+
+The two circles are separate
+
+	-------
+
+Circle A
+Enter center cordinates:
+(x): -3
+(y): -8
+Enter radius: 5
+
+Circle B
+Enter center cordinates:
+(x): 5
+(y): -8
+Enter radius: 2
+
+The two circles are separate
+
+
+/********** Touching Circle Examples ************/
+Circle A
+Enter center cordinates:
+(x): -6
+(y): 4
+Enter radius: 5
+
+Circle B
+Enter center cordinates:
+(x): -6
+(y): 12
+Enter radius: 3
+
+The two circles are touching
+
+	---------
+Circle A
+Enter center cordinates:
+(x): -5
+(y): -3
+Enter radius: 2
+
+Circle B
+Enter center cordinates:
+(x): -5
+(y): -6
+Enter radius: 1
+
+The two circles are touching
+
+
+/********** Overlaping Circles Examples ************/
+Circle A
+Enter center cordinates:
+(x): 23
+(y): 1
+Enter radius: 15
+
+Circle B
+Enter center cordinates:
+(x): 32
+(y): 4
+Enter radius: 19
+
+The two circles overlap
+
+	----------
+
+Circle A
+Enter center cordinates:
+(x): 15
+(y): 3
+Enter radius: 10
+
+Circle B
+Enter center cordinates:
+(x): 9
+(y): 11
+Enter radius: 1
+
+The two circles overlap
+
+/********** Enclosing Circles Examples ************/
+Circle A
+Enter center cordinates:
+(x): -5
+(y): -3
+Enter radius: 2
+
+Circle B
+Enter center cordinates:
+(x): -5
+(y): -3
+Enter radius: 1
+
+One circle encloses another
+
+	------------
+
+Circle A
+Enter center cordinates:
+(x): 54
+(y): 12
+Enter radius: 99
+
+Circle B
+Enter center cordinates:
+(x): 12
+(y): 32
+Enter radius: 19
+
+One circle encloses another

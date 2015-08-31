@@ -1,0 +1,104 @@
+/********* Real Triangle Examples ***********/
+
+Enter three 2D points:
+
+Point A
+(x): 54
+(y): 19.3
+Point B
+(x): 43.15
+(y): 16.12
+Point C
+(x): 25.0
+(y): 19.56
+
+The triangle is real
+
+----
+
+Enter three 2D points:
+
+Point A
+(x): 10
+(y): 18
+
+Point B
+(x): 9
+(y): 6
+
+Point C
+(x): 25
+(y): 13
+
+The triangle is real.
+
+-----
+
+Enter three 2D points:
+
+Point A
+(x): -5
+(y): -32
+
+Point B
+(x): -43.1
+(y): 54.8
+
+Point C
+(x): 19
+(y): -12
+
+The triangle is real.
+
+/********* Fake Triangle Examples ***********/
+
+Enter three 2D points:
+
+Point A
+(x): 2
+(y): -2
+
+Point B
+(x): 4
+(y): -4
+
+Point C
+(x): 2
+(y): -4
+
+The triangle is fake.
+
+-----
+
+Point A
+(x): 3
+(y): -7
+
+Point B
+(x): 5
+(y): -5
+
+Point C
+(x): 7
+(y): -7
+
+The triangle is fake.
+
+------
+
+Enter three 2D points:
+
+Point A
+(x): -6
+(y): 4
+
+Point B
+(x): -1
+(y): 4
+
+Point C
+(x): -3.5
+(y): 8
+
+The triangle is fake.
+
