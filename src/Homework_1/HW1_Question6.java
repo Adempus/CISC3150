@@ -51,7 +51,7 @@ public class HW1_Question6 {
 
 		if (distance == (radiusA + radiusB))
 			System.out.println("\nThe two circles are touching");
-		else if ((distance < Math.abs(radiusA - radiusB)))
+		else if (distance < Math.abs(radiusA - radiusB))
 			System.out.println("\nOne circle encloses another");
 		else if (distance < (radiusA + radiusB))
 			System.out.println("\nThe two circles overlap");
