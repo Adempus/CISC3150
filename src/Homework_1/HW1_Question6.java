@@ -33,16 +33,14 @@ public class HW1_Question6 {
 			System.out.print("(y): ");
 			y = scanCenter.nextDouble();
 
-			if (i == 'A')
-				centerA.setLocation(x, y);
-			else if (i == 'B')
-				centerB.setLocation(x, y);
-
 			System.out.print("Enter radius: ");	
-			if (i == 'A')
+			if (i == 'A') {
 				radiusA = scanCenter.nextDouble();
-			else if (i == 'B')
+				centerA.setLocation(x, y);
+			} else if (i == 'B') {
 				radiusB = scanCenter.nextDouble();
+				centerB.setLocation(x, y);
+			}
 		}
 		scanRadius.close();
 		scanCenter.close();
@@ -51,7 +49,7 @@ public class HW1_Question6 {
 
 		if (distance == (radiusA + radiusB))
 			System.out.println("\nThe two circles are touching");
-		else if (distance < Math.abs(radiusA - radiusB))
+		else if ((distance < Math.abs(radiusA - radiusB)))
 			System.out.println("\nOne circle encloses another");
 		else if (distance < (radiusA + radiusB))
 			System.out.println("\nThe two circles overlap");
